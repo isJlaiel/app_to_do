@@ -22,7 +22,7 @@ const Add_task: FunctionComponent<Props> = (props: Props) => {
     return (
         <form >
            <label htmlFor="task"><h1>What will you to do today</h1></label>
-            <input type="text" id="uname" name="name" className="main-input" onChange={(e)=>handleChange(e)}/>
+            <input type="text" id="uname" name="name" className="main-input" onChange={(e)=>handleChange(e)} placeholder={"write somthing"}/>
             <input type="submit" className="send-input" onClick={(e)=>_hand(e)}/>
         </form>
     );
