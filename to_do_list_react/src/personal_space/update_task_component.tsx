@@ -16,7 +16,7 @@ const Update_task: FunctionComponent<Props> = (props: Props) => {
         }
     return (
        <form className="todo-update" > <input className="main-input" type="text" id="uname" name="name" onChange={(e)=>setTask(previousState => {return { ...previousState,_task:e.target.value }})}/>
-        <input type="submit" value="update" className="send-input" onClick={(e)=>_hand(e)}/></form>
+        <button type="submit"  className="send-input" onClick={(e)=>_hand(e)}>Update</button></form>
     );
 };
 
