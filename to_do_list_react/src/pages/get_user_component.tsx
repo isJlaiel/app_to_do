@@ -21,7 +21,7 @@ const Get_user: FunctionComponent<Props> = (props: Props) => {
         )();
     })
     return (
-       <div> Hi <h1>{name}</h1> What will you to do today</div>
+       <div> Hi <h2>{name}</h2> What will you to do today</div>
     );
 };
 
